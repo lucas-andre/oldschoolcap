@@ -1,0 +1,235 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: fixed;
+    background-color: black;
+}
+
+#logo {
+    width: 30%;
+    float: left;
+}
+
+#nav-bar {
+    float: left;
+    width: 70%;
+}
+
+#nav-bar ul {
+    margin-right: 10%;
+    padding: 0;
+    float: right;
+    text-align: center;
+}
+
+#nav-bar ul li {
+    cursor: pointer;
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav-bar ul li a {
+    font-family: 'Cabin Sketch', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#nav-bar ul li a:hover {
+    color: chocolate;
+}
+
+
+/*loucura*/
+
+#header-img {
+    width: 280px;
+    margin: 12px;
+}
+
+#promocoes {
+    display: grid;
+    place-items: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#maisVendidos {
+    font-family: 'Basic', sans-serif;
+    font-size: x-large;
+}
+
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    font-family: 'Basic', sans-serif;
+}
+
+#cadastro>h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#cadastro input[type="email"] {
+    max-width: 100%;
+    width: 95%;
+    padding: 5px;
+}
+
+#cadastro input[type="submit"] {
+    max-width: 100%;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(241, 133, 55);
+}
+
+#cadastro input[type="submit"]:hover {
+    background-color: chocolate;
+    transition: background-color 1s;
+}
+
+@media (max-width: 650px) {
+    #cadastro {
+        margin-top: 120px;
+    }
+}
+
+.row {
+    width: 100%;
+    margin-top: 90px;
+    float: left;
+    height: 1000px;
+}
+
+.modalBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+    margin: 5px;
+}
+
+.modImg {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.modImg2 {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card {
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card2 {
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    padding: 60px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    padding: 20px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+footer>span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: white;
+    font-size: large;
+}
+
+.site {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
+
+@media (max-width: 1000px) {
+    .modalBox {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    #header {
+        font-size: 14px;
+    }
+    #logo {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    #nav-bar {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #nav-bar ul {
+        float: none;
+        margin-right: 0px;
+    }
+    .row {
+        margin-top: 145px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #header {
+        font-size: 12px;
+    }
+    #logo {
+        margin-bottom: 1%;
+    }
+    #nav-bar ul li {
+        display: block;
+    }
+    .row {
+        margin-top: 235px;
+    }
+}
