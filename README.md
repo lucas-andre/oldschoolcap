@@ -1,7 +1,7 @@
 # [![Billed Cap on JoyPixels ](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/emoji-one/104/billed-cap_1f9e2.png)](https://emojipedia.org/joypixels/3.1/billed-cap/) OldSchoolCap
 **Loja de bonés clássicos!**
 
-Demonstração desenvolvida em um design responsivo, com CSS. Nos cards com bonés foi usado CSS Grid.
+Demonstração desenvolvida em um design responsivo, com CSS. 
 
 ## 😮 Onde visualizar o projeto?
 
