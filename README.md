@@ -11,7 +11,7 @@ Acesse: https://lucas-andre.github.io/oldschoolcap
 Baixe os arquivos compactados em .zip diretamente do repositório.
 
 **Por linha de comando.**
-Abra o Git Bash e cole: `git clone https://github.com/lucas-andre/oldschoolcap`
+Abra o Git Bash e cole: `git clone https://github.com/lucas-andre/oldschoolcap.git`
 
 ## 📃 Licença 
 
